@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'meath';
+  src: url("./meath.woff") format("woff"), url("./meath.ttf") format("truetype"); }
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: meath;
+  background-color: #333;
+  color: #ddd; }
+
+body {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
+
+h1, p {
+  width: 100%;
+  text-align: center;
+  display: block; }
+
+h1 {
+  font-size: 18vw; }
+
+p {
+  font-size: 10vw; }
